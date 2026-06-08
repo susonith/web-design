@@ -1,0 +1,79 @@
+
+body{
+    overflow-x:hidden;
+}
+
+.brand-logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.nav-item{
+    font-size:16px;
+    text-transform:uppercase;
+}
+
+.section-title{
+    text-transform:uppercase;
+}
+
+.shop-btn{
+    border:none;
+    background:none;
+    font-size:18px;
+    text-transform:uppercase;
+    text-decoration:underline;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.carousel-inner img{
+    object-fit:cover;
+}
+
+.footer-link{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:black;
+}
+
+.social-icons i{
+    font-size:18px;
+    color:lightgray;
+    cursor:pointer;
+}
+.card-body h4 {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.subscribe-btn{
+    padding:10px 30px;
+    border:none;
+    text-transform:uppercase;
+}
+
+.sale-btn{
+    width:150px;
+    padding:10px 20px;
+    border:none;
+    background:black;
+    color:white;
+    text-transform:uppercase;
+}
+
+.info-text{
+    color:silver;
+    font-size:17px;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
